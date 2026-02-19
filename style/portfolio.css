@@ -45,12 +45,16 @@
     line-height: 30px;
     margin-bottom: 30px;
 }
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+}
 
 /* Main style */
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
-    background-position: top left , bottom right;
+    background-position: 23px 38px , bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -218,4 +222,45 @@ nav .menu a{
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3 ;
+    padding: 130px;
+}
+.footer-container{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    gap: 116px;
+    margin: 0 auto;
+}
+.footer-container .social{
+    max-width: 565px;
+}
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],
+.footer-container form input[type="email"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
